@@ -1,0 +1,33 @@
+.logosContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+ 
+ 
+ 
+}
+
+.logoItem{
+  max-width: 6.4rem;
+}
+
+.logoItem img {
+  max-width: 3rem;
+  object-fit: contain;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+
+@media (max-width: 768px) {
+  .logosContainer {
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .logoItem img {
+    max-height: 2.5rem;
+  }
+}

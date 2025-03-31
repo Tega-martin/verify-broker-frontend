@@ -1,0 +1,81 @@
+/* Header.module.css */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+  border: 0;
+  border: 0;
+  border-bottom: 1px solid #eee;
+  box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.1);
+
+}
+
+.logoContainer {
+ max-width: 8rem;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+}
+.rightSection {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 700;
+}
+
+.helpLine {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--grey);
+  border: 0;
+  padding: 0 .5rem;
+  border-left: 2.7px solid var(--black);
+  border-right: 2.7px solid var(--black);
+}
+
+
+.v_details{
+  text-transform: uppercase;
+}
+
+.v_details span{
+  text-transform: capitalize;
+}
+
+.feedbackButton {
+  background-color: var(--primary-color);
+  color: var(--white);
+  padding: .575rem .6rem;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+  font-size: .75rem;
+  text-transform: uppercase;
+  transition: 0.3s;
+  font-weight: 400;
+
+}
+
+.feedbackButton:hover {
+  background-color: var(--grey);
+
+}
+
+
+@media (max-width: 768px) {
+  .header {
+    padding: 0.5rem 1rem;
+  }
+  .logoContainer {
+    max-width: 7rem;
+  }
+  
+  .rightSection {
+    gap: 0.1rem;
+    flex-direction: column;
+  }
+}

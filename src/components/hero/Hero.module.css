@@ -1,0 +1,30 @@
+.heroContainer {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 90vh;
+}
+
+.heroSlider {
+  display: flex;
+  width: 100%; /* Adjust based on number of images */
+  transition: transform 1s ease-in-out;
+}
+
+.heroSlide {
+  width: 100%;
+  flex-shrink: 0;
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+  .heroContainer {
+    height: 50vh;
+  }
+  .heroSlide {
+    height: 50vh;
+  }
+}

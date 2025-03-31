@@ -1,0 +1,176 @@
+.section {
+	width: 100vw;
+	background-color: #f8f9fa;
+	height: 100vh;
+	padding: 4rem;
+}
+
+.container {
+	width: 90%;
+	max-width: 1000px;
+	margin: 0 auto 0;
+	text-align: center;
+	font-family: Arial, sans-serif;
+}
+
+.header {
+	background-color: #28a745;
+	color: white;
+	padding: 15px;
+	border-radius: 10px;
+	font-size: 16px;
+}
+
+.header p {
+	font-size: 2rem;
+}
+.searchBar {
+	display: flex;
+	justify-content: center;
+	margin: 20px 0;
+}
+
+.searchBar input {
+	width: 70%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.brokerTable {
+	width: 100%;
+	
+  padding: .5rem;
+	box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+  background-color: var(--white);
+}
+
+
+
+.searchBar button {
+	padding: 10px 15px;
+	margin-left: 5px;
+	background-color: #28a745;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.brokerInfo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: white;
+	padding: 15px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.brokerImage {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.brokerDetails p {
+	margin: 5px 0;
+}
+
+.affiliates {
+	margin-top: 20px;
+}
+
+.affiliateList {
+	
+	gap: .3rem;
+	
+  width: 100%;
+}
+
+.affiliateItem {
+	background: #f8f9fa;
+	padding: 10px;
+	margin: 5px;
+	border-radius: 5px;
+  
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.brokerTable tbody{
+  margin-top: 15px;
+}
+
+.imgContainer{
+  
+  gap: 2px;
+  padding: 10px;
+    text-align: center;
+    background-color: #ffffff;
+    border: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.imgContainer p{
+  font-weight: bold;
+}
+.img{
+  width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+@media  (max-width: 768px){
+	.header p {
+		font-size: 1rem;
+	}
+
+  .section{
+    padding: 3rem 2%;
+  }
+
+  .brokerTable thead{
+    font-size: 10px;
+  }
+
+  .brokerTable td{
+    font-size: 8px;
+  }
+
+  .img{
+    width: 40px;
+    height: 40px;
+  }
+
+  .imgContainer p{
+    font-size: 10px;
+  }
+}
+
+
+
+
+
+
+@media  (max-width: 368px){
+  .brokerTable thead{
+    font-size: 8px;
+  }
+
+  .brokerTable td{
+    font-size: 8px;
+  }
+
+  .img{
+    width: 35px;
+    height: 35px;
+  }
+
+  .imgContainer p{
+    font-size: 8px;
+  }
+}

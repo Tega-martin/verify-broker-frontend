@@ -1,0 +1,53 @@
+.footer {
+  background-color: #f4f4f4;
+  padding: 1.5rem 2rem ;
+ 
+}
+
+.divider {
+  border: 0;
+  height: 1px;
+  background: #ccc;
+  margin-bottom: 3rem;
+  width: 100%;
+
+}
+
+.content {
+  max-width: 1400px;
+  margin: 0 auto;
+  text-align: left;
+  border: 0;
+  border-top: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding-top: 3rem ;
+  gap: 2rem
+}
+
+.copyright,
+.trademark {
+  font-size: 0.9rem;
+  color: #888;
+  margin: 0;
+}
+
+.trademark{
+  margin-top: .8rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer {
+    padding: 3rem 2rem;
+  }
+  
+  
+
+  .copyright,
+  .trademark {
+    font-size: 0.7rem;
+    line-height: 1.8;
+  }
+}

@@ -1,0 +1,43 @@
+.whyUseContainer {
+  text-align: center;
+  padding: 3rem 1.25rem; /* 50px 20px */
+}
+
+.heading {
+  color: #35b729;
+  font-size: 2rem;
+  margin-bottom: 1.25rem; /* 20px */
+}
+
+.cardsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem; /* 20px */
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1;
+  min-width: 15.625rem; /* 250px */
+  max-width: 21.875rem; /* 350px */
+  text-align: center;
+  padding: 1.25rem; /* 20px */
+}
+
+.image {
+  width: 14rem;
+  height: auto;
+  margin-bottom: 0.625rem; /* 10px */
+}
+
+.text {
+  font-size: 1rem;
+  color: #333;
+}
+
+@media (max-width: 48rem) { /* 768px */
+  .cardsContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
